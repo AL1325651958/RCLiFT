@@ -1,0 +1,58 @@
+{
+  "class": "rclift.RCLiFT",
+  "architecture": "direct_voltage_shared",
+  "constructor_kwargs": {
+    "state_bridge": true,
+    "activation": "voltage",
+    "share_neurons": true,
+    "carry_depth": true
+  },
+  "parameters": 115288,
+  "input_shape": [
+    "batch",
+    168,
+    22
+  ],
+  "output_shape": [
+    "batch",
+    24
+  ],
+  "checkpoints": [
+    {
+      "dataset": "gefcom",
+      "seed": 42,
+      "path": "weights/gefcom/seed42.pt",
+      "sha256": "db75496b5cab6634dc8d14b392ba96eb14a40c239059a02a2a7f308308c6281e"
+    },
+    {
+      "dataset": "gefcom",
+      "seed": 43,
+      "path": "weights/gefcom/seed43.pt",
+      "sha256": "be73a6ff7aa6e1ce5edcb25eb451b46a8981f730c89856ca8b3432edd061f518"
+    },
+    {
+      "dataset": "gefcom",
+      "seed": 44,
+      "path": "weights/gefcom/seed44.pt",
+      "sha256": "7555d07f90a6e0af5bf9eb6aa046dbd6d79b52f5c3c19ebc3006d02152d06550"
+    },
+    {
+      "dataset": "pjme",
+      "seed": 42,
+      "path": "weights/pjme/seed42.pt",
+      "sha256": "4c964c854b9e878f96658fd8f3d0428d6b8c6c40ae5305a8bc2b397e12361e94"
+    },
+    {
+      "dataset": "pjme",
+      "seed": 43,
+      "path": "weights/pjme/seed43.pt",
+      "sha256": "8b90bf9830745d5e5448dd979d2fabddb53cf06b3e6f07858e2487ddd557eca8"
+    },
+    {
+      "dataset": "pjme",
+      "seed": 44,
+      "path": "weights/pjme/seed44.pt",
+      "sha256": "fb2f4dc76fa36abdf07dc91bfbe1bdce35c4e20c55e7691df0826926aa82a965"
+    }
+  ]
+}
